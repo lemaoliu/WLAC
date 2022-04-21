@@ -2,6 +2,7 @@
 This is a Shared task in WMT 2022. In this year, the shared task involves in two language pairs German-to-English (De-En) and Chinese-to-English (Zh-En) with two directions. 
 
 
+<<<<<<< HEAD
 # Steps 
 
 - Download the datasets for De-En and Zh-EN (see the details in next section)
@@ -25,3 +26,17 @@ cat UNv1.0.en-zh.tar.gz.* | tar -xzf -
 
 ## Preparing the Simulated Training data for WLAC
 Bilingual data can not be used to train WLAC models directly. Instead, one can obtain training data for WLAC from bilingual data via simulation following the reference [1] (See Section 3.2 in this paper). For example, this can be done by running the following cmd:
+=======
+# Data
+This year the training/dev datasets are provided in the data directory. 
+
+# Data Preprocessing
+1. `cd WLAC` 
+2. Download mosesdecoder to preprocess data.
+    ```
+    git clone https://github.com/moses-smt/mosesdecoder.git
+    ```
+3. `bash data/prepare_data.sh`
+
+for more details, you can check the `data/prepare_data.sh` and `data/generate_samples.py`
+>>>>>>> 9958e1333ffb03dc0fdd118445647dd64d77f10c
