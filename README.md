@@ -19,8 +19,11 @@ The bilingual data is from WMT 14 preprocessed by Stanford NLP Group: [train.de]
 The bilingual data is ``UN Parallel Corpus V1.0" from WMT 17. To obtain the data, one can follow three steps: 
 - Download two files [UNv1.0.en-zh.tar.gz.00](https://drive.google.com/uc?export=download&id=1rv2Yh5j-5da5RZO3DEaYvYRZKxE841hT) and
 [UNv1.0.en-zh.tar.gz.01](https://drive.google.com/uc?export=download&id=1cfUezEOv5UPzF-d1uIm9-dkIUjtyZ9ys). You may also find both files yourself from [webpage](https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview). 
+
 - Run the following command to combine two files and decompress them: 
+```
 cat UNv1.0.en-zh.tar.gz.* | tar -xzf - 
+```
 
 - en-zh/UNv1.0.en-zh.en and en-zh/UNv1.0.en-zh.zh are source and target files. Note that both files should be preprocessed (word segmentation for zh and tokenization for en) by scripts/preprocess.py.
 
