@@ -54,7 +54,7 @@ python3 scripts/word_seg.py UNv1.0.en-zh.zh > UNv1.0.en-zh.tok.zh
 ## Preparing the Simulated Training data for WLAC
 
 
-Bilingual data can not be used to train WLAC models directly. Instead, one can obtain training data for WLAC from bilingual data via simulation following the reference [1] (See Section 3.2 in this paper). For example, this can be done by running the following cmd for zh->en subtask:
+Bilingual data can not be used to train WLAC models directly. Instead, one can obtain training data (as well as development data) for WLAC from bilingual data via simulation following the reference [1] (See Section 3.2 in this paper). For example, this can be done by running the following cmd for zh->en subtask:
 ```
 pip3 install pypinyin tqdm
 python3 scripts/generate_samples.py --source-lang zh --target-lang en --file-prefix UNv1.0.en-zh.tok
