@@ -56,6 +56,13 @@ Then UNv1.0.en-zh.tok.samples.json is the simulated training data for WLAC, whos
 ```
 where "typed_seq" denotes the typed sequence for the target word, i.e., "a" is the prefix of the pronunciation of "anquan" for the Chinese word "安全", or "Coun" is the prefix of the target word of "Council" for English (or German); "context_type" indicates the location type of the target word with respect to left_context and right_context and it takes value from {"prefix", "zero_context", "suffix", and "bi_context"} (See reference [1] for more details). 
 
+
+
+## Test Data for WLAC
+<font color=red><b>ATTENTION!!</font> Test data will be available on July 7.</b>
+
+
+
 ## Reference
 
 - [1] Huayang Li, Lemao Liu, Guoping Huang, Shuming Shi. 2021. GWLAN: General Word-Level AutocompletioN for Computer-Aided Translation. Proceedings of ACL. 
