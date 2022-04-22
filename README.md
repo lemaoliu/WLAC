@@ -52,20 +52,20 @@ python3 scripts/generate_samples.py --source-lang zh --target-lang en --file-pre
 Then UNv1.0.en-zh.tok.samples.json is the simulated training data for WLAC, whose format is as follows:
 ```json
 {
-   "src":"The Security Council ,",
-   "context_type":"zero_context",
-   "left_context":"",
-   "right_context":"",
-   "typed_seq":"a",
-   "target":"安全"
+    "src":"The Security Council ,",
+    "context_type":"zero_context",
+    "left_context":"",
+    "right_context":"",
+    "typed_seq":"a",
+    "target":"安全"
 }
 {
-   "src":"安全 理事会 ，",
-   "context_type":"prefix",
-   "left_context":"The Security",
-   "right_context":"",
-   "typed_seq":"Coun",
-   "target":"Council"
+    "src":"安全 理事会 ，",
+    "context_type":"prefix",
+    "left_context":"The Security",
+    "right_context":"",
+    "typed_seq":"Coun",
+    "target":"Council"
 }
 ```
 where "typed_seq" denotes the typed sequence for the target word, i.e., "a" is the prefix of the pronunciation of "anquan" for the Chinese word "安全", or "Coun" is the prefix of the target word of "Council" for English (or German); "context_type" indicates the location type of the target word with respect to left_context and right_context and it takes value from {"prefix", "zero_context", "suffix", and "bi_context"} (See reference [1] for more details). 
