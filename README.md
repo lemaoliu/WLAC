@@ -34,7 +34,7 @@ The bilingual data is ``UN Parallel Corpus V1.0" from WMT 17. To obtain the data
 ```
 cat UNv1.0.en-zh.tar.gz.* | tar -xzf -
 ```
-- en-zh/UNv1.0.en-zh.en and en-zh/UNv1.0.en-zh.zh are source and target files. Note that both files should be preprocessed (word segmentation for zh and tokenization for en) by scripts/tokenizer.perl and scripts/word_seg.py as follows:
+- en-zh/UNv1.0.en-zh.en and en-zh/UNv1.0.en-zh.zh are source and target files. Note that both files should be preprocessed (word segmentation for zh and tokenization for en) by scripts/tokenizer.perl (from [Moses Project](https://github.com/moses-smt/mosesdecoder)) and scripts/word_seg.py as follows:
 ```
 pip3 install jieba
 perl scripts/tokenizer.perl -l en < UNv1.0.en-zh.en > UNv1.0.en-zh.tok.en
