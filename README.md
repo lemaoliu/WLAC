@@ -4,23 +4,18 @@
 
 This is a new shared task in WMT 2022. In this year, the shared task involves in two language pairs German-to-English (De-En) and Chinese-to-English (Zh-En) with two directions. If you have any questions, please contact <a href="mailto:lemaoliu@gmail.com" target="_blank">Lemao Liu</a>.
 
-  
-  
-
 
 # Key Steps
 
   
-
-- Download the datasets for De-En and Zh-EN (see the details in next section)
+- Download the datasets for De-En and Zh-EN (see the details in next section). 
+<font color=red><b>ATTENTION!!</font> Participants must use only the data provided here.
 
 - Download the scripts in the directory scripts/ to preprocess the data.
 
 - Run the scripts to obtain the simulated training data for WLAC task from bilingual data.
 
-  
 
-  
 
 # Data Preparation
 
@@ -28,9 +23,6 @@ This is a new shared task in WMT 2022. In this year, the shared task involves in
 
 The bilingual data is from WMT 14 preprocessed by Stanford NLP Group: [train.de](https://nlp.stanford.edu/projects/nmt/data/wmt14.en-de/train.de) and [train.en](https://nlp.stanford.edu/projects/nmt/data/wmt14.en-de/train.en).
 
-  
-
-  
 
 ## Zh-En Bilingual Data
 
@@ -50,7 +42,6 @@ python3 scripts/word_seg.py UNv1.0.en-zh.zh > UNv1.0.en-zh.tok.zh
 ```
 
  
-
 ## Preparing the Simulated Training data for WLAC
 
 
@@ -64,9 +55,8 @@ Then UNv1.0.en-zh.tok.samples.json is the simulated training data for WLAC, whos
 {"src": "The Security Council ,", "context_type": "zero_context", "left_context": "", "right_context": "", "typed_seq": "a", "target": "安全"}
 {"src": "安全 理事会 ，", "context_type": "prefix", "left_context": "The Security", "right_context": "", "typed_seq": "Coun", "target": "Council"}
 ```
-where "typed_seq" denotes the typed sequence for the target word, i.e., "a" is the prefix of the pronunciation of "anquan" for the Chinese word "安全", or "Coun" is the prefix of the target word of "Council" for English (or German); "context_type" indicates the location of the target word between left_context and right_context and it takes value from {"prefix", "zero_context", "suffix", and "bi_context"} which are defined in reference [1]. 
+where "typed_seq" denotes the typed sequence for the target word, i.e., "a" is the prefix of the pronunciation of "anquan" for the Chinese word "安全", or "Coun" is the prefix of the target word of "Council" for English (or German); "context_type" indicates the location of the target word between left_context and right_context and it takes value from {"prefix", "zero_context", "suffix", and "bi_context"} (See reference [1] for more details). 
 
 ## Reference
 
-- [1] Huayang Li, Lemao Liu, Guoping Huang, Shuming Shi. 2021. GWLAN: General Word-Level AutocompletioN for Computer-Aided Translation. Proceedings of ACL. --file-prefix UNv1.0.en-zh.tok
-
+- [1] Huayang Li, Lemao Liu, Guoping Huang, Shuming Shi. 2021. GWLAN: General Word-Level AutocompletioN for Computer-Aided Translation. Proceedings of ACL. 
