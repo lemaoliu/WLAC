@@ -9,8 +9,7 @@ This is a new shared task in WMT 2022. In this year, the shared task involves in
 
   
 - Download the datasets for De-En and Zh-EN (see the details in next section). 
-<font color=red><b>ATTENTION!!</font> Participants must use only the data provided here.
-<span style="color:red">some *blue* text</span>.
+<font color=red><b>ATTENTION!!</font> Participants must use only the data provided here.</b>
 
 - Download the scripts in the directory scripts/ to preprocess the data.
 
