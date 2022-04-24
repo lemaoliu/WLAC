@@ -2,7 +2,7 @@
 
 # Word-level AutoCompletion (WLAC)
 
-This is a new shared task in WMT 2022. In this year, the shared task involves in two language pairs German-to-English (De-En) and Chinese-to-English (Zh-En) with two directions. If you have any questions, please contact <a href="mailto:lemaoliu@gmail.com" target="_blank">Lemao Liu</a>.
+This is a new shared task called [WLAC](https://statmt.org/wmt22/word-autocompletion.html) in WMT 2022. In this year, the shared task involves in two language pairs German-to-English (De-En) and Chinese-to-English (Zh-En) with two directions. If you have any questions, please contact <a href="mailto:lemaoliu@gmail.com" target="_blank">Lemao Liu</a>.
 
 
 # Key Steps
