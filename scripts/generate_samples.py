@@ -7,17 +7,26 @@ import argparse
 from tqdm import tqdm
 from pypinyin import lazy_pinyin
 
+def get_span(start, end):
+    # sample a span from [start, end]
+    x = random.randint(start, end)
+    y = random.randint(start, end)
+    if x > y:
+        return y, x
+    else:
+        return x, y
+
 def generate_bi_context(lang, tgt_sentence):
 
     length = len(tgt_sentence)
 
     position = random.randint(1, length-2) # exclude the first and last word
+
+    left_low, left_high =  get_span(0, position-1)
+    right_low, right_high = get_span(position+1, length-1) 
     
-    left_bound = random.randint(0, position-1)
-    right_bound = random.randint(position+1, length-1)
-    
-    left_context = " ".join(tgt_sentence[0 : left_bound+1])
-    right_context = " ".join(tgt_sentence[right_bound : length])
+    left_context = " ".join(tgt_sentence[ left_low : left_high+1 ])
+    right_context = " ".join(tgt_sentence[ right_low : right_high+1 ])
 
     if lang != "zh":
         target = tgt_sentence[position]
@@ -38,9 +47,9 @@ def generate_prefix(lang, tgt_sentence):
 
     position = random.randint(1, length-1) # exclude the first word
 
-    left_bound = random.randint(0, position-1)
+    left_low, left_high =  get_span(0, position-1)
 
-    left_context = " ".join(tgt_sentence[0 : left_bound+1])
+    left_context = " ".join(tgt_sentence[ left_low : left_high+1])
     right_context = "" # no right context
 
     if lang != "zh":
@@ -61,10 +70,10 @@ def generate_suffix(lang, tgt_sentence):
 
     position = random.randint(0, length-2) # exclude the first word
 
-    right_bound = random.randint(position+1, length-1)
+    right_low, right_high = get_span(position+1, length-1)
 
     left_context = "" # no left context
-    right_context = " ".join(tgt_sentence[right_bound : length])
+    right_context = " ".join(tgt_sentence[ right_low : right_high+1 ])
 
     if lang != "zh":
         target = tgt_sentence[position]
