@@ -1,5 +1,15 @@
 
 
+# Important Dates
+
+Release of training data:    April 20th, 2022
+Release of test data:    July 1th, 2022
+Result submission deadline:  July 7th, 2022
+System paper submission deadline:    September 7th, 2022
+Paper notification:  October 9th, 2022
+Camera-ready version due:    October 16, 2022
+
+
 # Word-level AutoCompletion (WLAC)
 
 This is a new shared task called [WLAC](https://statmt.org/wmt22/word-autocompletion.html) in WMT 2022. In this year, the shared task involves in two language pairs German-to-English (De-En) and Chinese-to-English (Zh-En) with two directions. If you have any questions, please contact <a href="mailto:lemaoliu@gmail.com" target="_blank">Lemao Liu</a>.
@@ -73,7 +83,7 @@ where "typed_seq" denotes the typed sequence for the target word, i.e., "a" is t
 
 
 ## Test Data for WLAC
-<font color=red><b>ATTENTION!!</font> Test data will be available on July 7.</b>
+<font color=red><b>ATTENTION!!</font> Test data will be available on July 1 and the testing results should be submitted on July 7.</b>
 
 
 
