@@ -5,7 +5,7 @@
 
 # Word-level AutoCompletion (WLAC)
 
-This is a new shared task called [WLAC](https://statmt.org/wmt22/word-autocompletion.html) in WMT 2022. In this year, the shared task involves in two language pairs German-to-English (De-En) and Chinese-to-English (Zh-En) with two directions. If you have any questions, please contact <a href="mailto:lemaoliu@gmail.com" target="_blank">Lemao Liu</a>.
+This is a new shared task called [WLAC](https://statmt.org/wmt22/word-autocompletion.html) in [WMT 2022](https://statmt.org/wmt22/index.html). In this year, the shared task involves in two language pairs German-to-English (De-En) and Chinese-to-English (Zh-En) with two directions. If you have any questions, please contact <a href="mailto:lemaoliu@gmail.com" target="_blank">Lemao Liu</a>.
 
 
 ## Important Dates
@@ -22,7 +22,8 @@ Camera-ready version due:    <b> October 16, 2022 </b> <br />
 
   
 - Download the datasets for De-En and Zh-EN (see the details in next section).  <br />
-<font color=red><b>ATTENTION!!</font> Participants must use only the bilingual data provided here.</b> Note that pretrained language models such as BERT are allowed as well as additional monolingual data. 
+<font color=red><b>ATTENTION!!</font> Participants must use only the bilingual data provided here.</b>  <br />
+Note that pretrained language models such as BERT are allowed as well as additional monolingual data. 
 
 - Download the scripts in the directory scripts/ to preprocess the data.
 
