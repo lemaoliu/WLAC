@@ -10,12 +10,12 @@ This is a new shared task called [WLAC](https://statmt.org/wmt22/word-autocomple
 
 ## Important Dates
 
-<b> Release of training data:    April 20th, 2022 </b> <br />
-<b> Release of test data:    July 1th, 2022 </b> <br />
-<b> Result submission deadline:  July 7th, 2022 </b> <br />
-<b> System paper submission deadline:    September 7th, 2022 </b> <br />
-<b> Paper notification:  October 9th, 2022 </b> <br />
-<b> Camera-ready version due:    October 16, 2022 </b> <br />
+Release of training data:    <b> April 20th, 2022 </b> <br />
+Release of test data:    <b> July 1th, 2022 </b> <br />
+Result submission deadline:  <b> July 7th, 2022 </b> <br />
+System paper submission deadline:    <b> September 7th, 2022 </b> <br />
+Paper notification:  <b> October 9th, 2022 </b> <br />
+Camera-ready version due:    <b> October 16, 2022 </b> <br />
 
 
 ## Key Steps
