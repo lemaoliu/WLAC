@@ -1,13 +1,6 @@
 
 
-# Important Dates
 
-Release of training data:    April 20th, 2022
-Release of test data:    July 1th, 2022
-Result submission deadline:  July 7th, 2022
-System paper submission deadline:    September 7th, 2022
-Paper notification:  October 9th, 2022
-Camera-ready version due:    October 16, 2022
 
 
 # Word-level AutoCompletion (WLAC)
@@ -15,7 +8,17 @@ Camera-ready version due:    October 16, 2022
 This is a new shared task called [WLAC](https://statmt.org/wmt22/word-autocompletion.html) in WMT 2022. In this year, the shared task involves in two language pairs German-to-English (De-En) and Chinese-to-English (Zh-En) with two directions. If you have any questions, please contact <a href="mailto:lemaoliu@gmail.com" target="_blank">Lemao Liu</a>.
 
 
-# Key Steps
+## Important Dates
+
+<b> Release of training data:    April 20th, 2022 </b>
+<b> Release of test data:    July 1th, 2022 </b>
+<b> Result submission deadline:  July 7th, 2022 </b>
+<b> System paper submission deadline:    September 7th, 2022 </b>
+<b> Paper notification:  October 9th, 2022 </b>
+<b> Camera-ready version due:    October 16, 2022 </b>
+
+
+## Key Steps
 
   
 - Download the datasets for De-En and Zh-EN (see the details in next section). 
@@ -26,14 +29,14 @@ This is a new shared task called [WLAC](https://statmt.org/wmt22/word-autocomple
 - Run the scripts to obtain the simulated training data for WLAC task from bilingual data.
 
 
-# Data Preparation
+## Data Preparation
 
-## De-En Bilingual Data
+### De-En Bilingual Data
 
 The bilingual data is from WMT 14 preprocessed by Stanford NLP Group: [train.de](https://nlp.stanford.edu/projects/nmt/data/wmt14.en-de/train.de) and [train.en](https://nlp.stanford.edu/projects/nmt/data/wmt14.en-de/train.en).
 
 
-## Zh-En Bilingual Data
+### Zh-En Bilingual Data
 
 The bilingual data is "UN Parallel Corpus V1.0" from WMT 17. To obtain the data, one can follow three steps:
 - Download two files [UNv1.0.en-zh.tar.gz.00](https://drive.google.com/uc?export=download&id=1rv2Yh5j-5da5RZO3DEaYvYRZKxE841hT) and
@@ -51,7 +54,7 @@ python3 scripts/word_seg.py UNv1.0.en-zh.zh > UNv1.0.en-zh.tok.zh
 ```
 
  
-## Preparing the Simulated Training data for WLAC
+### Preparing the Simulated Training data for WLAC
 
 
 Bilingual data can not be used to train WLAC models directly. Instead, one can obtain training data (as well as development data) for WLAC from bilingual data via simulation following the reference [1] (See Section 3.2 in this paper). For example, this can be done by running the following cmd for zh->en subtask:
@@ -82,7 +85,7 @@ where "typed_seq" denotes the typed sequence for the target word, i.e., "a" is t
 
 
 
-## Test Data for WLAC
+### Test Data for WLAC
 <font color=red><b>ATTENTION!!</font> Test data will be available on July 1 and the testing results should be submitted on July 7.</b>
 
 
