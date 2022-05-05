@@ -21,7 +21,7 @@ Camera-ready version due:    <b> October 16, 2022 </b> <br />
 ## Key Steps
 
   
-- Download the datasets for De-En and Zh-EN (see the details in next section). 
+- Download the datasets for De-En and Zh-EN (see the details in next section).  <br />
 <font color=red><b>ATTENTION!!</font> Participants must use only the bilingual data provided here.</b> Note that pretrained language models such as BERT are allowed as well as additional monolingual data. 
 
 - Download the scripts in the directory scripts/ to preprocess the data.
