@@ -23,8 +23,9 @@ Camera-ready version due:    <b> October 16, 2022 </b> <br />
 
   
 - Download the datasets for De-En and Zh-EN (see the details in next section).  <br />
- <b> The training data is up to 10M sentence pairs and those in data/train-sample are the samples. </b><br /> 
-<font color=red><b>ATTENTION!!</font> Participants must use only the bilingual data provided here.</b>  <br />
+<font color=red><b>ATTENTION!!</font> 
+<b> The training data is up to 10M sentence pairs and those in data/train-sample are the samples. <br /> 
+Participants must use only the bilingual data provided here.</b>  <br />
 Note that pretrained language models such as BERT are allowed as well as additional monolingual data. 
 
 - Download the scripts in the directory scripts/ to preprocess the data.
