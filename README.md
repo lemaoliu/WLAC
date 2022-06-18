@@ -5,7 +5,7 @@
 
 # Word-level AutoCompletion (WLAC)
 
-This is a new shared task called [WLAC](https://statmt.org/wmt22/word-autocompletion.html) in [WMT 2022](https://statmt.org/wmt22/index.html). In this year, the shared task involves in two language pairs German-to-English (De-En) and Chinese-to-English (Zh-En) with two directions. If you have any questions, please join in the [mailing list](https://groups.google.com/g/wlac2022). If you want to participate this shared task, please sign in [here](https://docs.google.com/forms/d/1uFc6Kdjhi1ZVcjmjEEZ0zz3_mckqOpu5UjAmOsnzcvU/edit).
+This is a new shared task called [WLAC](https://statmt.org/wmt22/word-autocompletion.html) in [WMT 2022](https://statmt.org/wmt22/index.html). In this year, the shared task involves in two language pairs German-to-English (De-En) and Chinese-to-English (Zh-En) with two directions. If you have any questions, please join in the [mailing list](https://groups.google.com/g/wlac2022). If you want to participate this shared task, please sign in [here]([https://docs.google.com/forms/d/1uFc6Kdjhi1ZVcjmjEEZ0zz3_mckqOpu5UjAmOsnzcvU/edit](https://docs.google.com/forms/d/e/1FAIpQLSefGvf6v-p7a1ECJi1IUxQ6qGxonjGqi9tODTrhqhRGxFAjYQ/viewform?usp=sf_link)).
 For any further information, please contact <a href="mailto:lemaoliu@gmail.com" target="_blank">Lemao Liu</a>.
 
 
