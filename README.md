@@ -12,7 +12,7 @@ For any further information, please contact <a href="mailto:lemaoliu@gmail.com" 
 
 ## Result Submission
 
-<b> The results should be sent to the email: lemaoliu@gmail.com before deadline.  </b>
+<b> The results must be sent to the email: lemaoliu@gmail.com before deadline.  </b>
 
 
 ## Important Dates
