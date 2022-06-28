@@ -13,7 +13,7 @@ For any further information, please contact <a href="mailto:lemaoliu@gmail.com" 
 
 Release of training data:    <b> April 20th, 2022 </b> <br />
 Release of test data:    <b> July 1th, 2022 </b> <br />
-Result submission deadline:  <b> July 7th, 2022 </b> <br />
+Result submission deadline:  <b> July 7th, 2022 (The results should be sent to the email: lemaoliu@gmail.com before deadline) </b> <br />
 System paper submission deadline:    <b> September 7th, 2022 </b> <br />
 Paper notification:  <b> October 9th, 2022 </b> <br />
 Camera-ready version due:    <b> October 16, 2022 </b> <br />
