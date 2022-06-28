@@ -10,7 +10,7 @@ For any further information, please contact <a href="mailto:lemaoliu@gmail.com" 
 
 
 
-## Result Submission
+##Result Submission
 
 <b> The results should be sent to the email: lemaoliu@gmail.com before deadline.  </b>
 
