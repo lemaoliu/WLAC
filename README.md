@@ -10,6 +10,10 @@ For any further information, please contact <a href="mailto:lemaoliu@gmail.com" 
 
 
 
+## Test datasets are available
+<b> The test datasets for four directions are in the director [test-data/]((https://github.com/lemaoliu/WLAC/tree/main/test-data)) </b>
+
+
 ## Result Submission
 
 <b> The results must be sent to the email: lemaoliu@gmail.com before deadline.  </b>
