@@ -101,7 +101,7 @@ where "typed_seq" denotes the typed sequence for the target word, i.e., "a" is t
 The simulated dev data can be obtained in the same way as the simulated training data mentioned above. 
 
 ### Test Data for WLAC
-<font color=red><b>ATTENTION!!</font> Test data will be available on July 1 and the testing results should be submitted on July 7.</b>
+<font color=red><b>ATTENTION!!</font> [Test data](https://github.com/lemaoliu/WLAC/tree/main/test-data) are available now and the testing results should be submitted on July 7.</b>
 
 
 
