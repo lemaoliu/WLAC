@@ -9,7 +9,7 @@ Suppose the test example is
 }
 
 Participants need to predict the target word for this example. If the target word is "Council", then participants need to 
-send me the following format to me as follows:
+send me the following format:
 
 {
     "src":"安全 理事会 ，",
