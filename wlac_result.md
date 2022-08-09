@@ -1,6 +1,6 @@
 ## Leaderboard for Evaluation Results of WLAC 2022 
 ### zh-en
-|  #   | System  | Acc |
+|  Rank   | System  | Acc |
 |  ----  | ----  | ---- |
 | 1 | Anon.#1 | 0.593955458 |
 | 2 | Anon.#2-1 | 0.540497745 |
@@ -12,7 +12,7 @@
 
  
 ## en-zh
-|  #   | System  | Acc |
+|  Rank   | System  | Acc |
 |  ----  | ----  | ---- |
 | 1 | Anon.#2-1 | 0.539786049 |
 | 2 | Anon.#2-2 | 0.488972743 |
@@ -21,7 +21,7 @@
 
 
 ## de-en
-|  #   | System  | Acc |
+|  Rank   | System  | Acc |
 |  ----  | ----  | ---- |
 | 1 | Anon.#1 | 0.620556832 |
 | 2 | Anon.#3-1 | 0.614441141 |
@@ -34,7 +34,7 @@
 
 
 ## en-de
-|  #   | System  | Acc |
+|  Rank   | System  | Acc |
 |  ----  | ----  | ---- |
 | 1 | Anon.#1 | 0.638192701 |
 | 2 | Anon.#3-1 | 0.589418807 |
