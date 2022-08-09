@@ -19,6 +19,9 @@ For any further information, please contact <a href="mailto:lemaoliu@gmail.com" 
 <b> The results must be sent to the email: lemaoliu@gmail.com before 23:59 on July 7th, 2022 (Anywhere-on-earth) .  </b>
 
 
+## Evaluation results for submissions
+The evaluation for submissions is available at [evaluation-results](wlac_result.md)
+
 ## Important Dates
 
 Release of training data:    <b> April 20th, 2022 </b> <br />
