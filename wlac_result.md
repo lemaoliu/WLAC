@@ -1,4 +1,7 @@
 ## Leaderboard for Evaluation Results of WLAC 2022 
+
+Please note that Acc and Human represent automatic and human evaluations, respectively. Rank denotes the ranking according to Acc.
+
 ### zh-en
 |  Rank   | System  | Acc | Human |
 |  ----  | ----  | ---- | ---- |
